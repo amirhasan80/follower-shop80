@@ -10,3 +10,73 @@
   <a href="services.html">ورود به خدمات</a>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>فالوئر شاپ</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Tahoma', sans-serif;
+      direction: rtl;
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    .logo {
+      font-size: 36px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    .subtitle {
+      font-size: 18px;
+      margin-bottom: 40px;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+
+    .button {
+      padding: 14px 30px;
+      background-color: white;
+      color: #2575fc;
+      border: none;
+      border-radius: 8px;
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s;
+      text-decoration: none;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    .button:hover {
+      background-color: #f0f0f0;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (max-width: 600px) {
+      .logo { font-size: 28px; }
+      .subtitle { font-size: 16px; }
+      .button { font-size: 16px; padding: 12px 24px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="logo">فالوئر شاپ</div>
+  <div class="subtitle">ارائه خدمات فالوور، لایک، ویو برای تمام شبکه‌های اجتماعی</div>
+  <a href="services.html" class="button">ورود به خدمات</a>
+</body>
+</html>
